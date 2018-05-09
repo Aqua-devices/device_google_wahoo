@@ -360,6 +360,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:vendor/etc/sensors/hals.conf
 
+# Add sensor conf needed for Active Edge
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/sensors/sensor_def_wahoo.conf:vendor/etc/sensors/sensor_def_wahoo.conf
+
 # Default permission grant exceptions
 PRODUCT_COPY_FILES += \
     device/google/wahoo/default-permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/default-permissions.xml
