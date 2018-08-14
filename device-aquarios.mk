@@ -1,5 +1,5 @@
-# Carbon specific carbon device config
-DEVICE_PACKAGE_OVERLAYS += device/google/wahoo/overlay-carbon
+# Aquarios specific aquarios device config
+DEVICE_PACKAGE_OVERLAYS += device/google/wahoo/overlay-aquarios
 
 PRODUCT_PROPERTY_OVERRIDES += \
       media.recorder.show_manufacturer_and_model=true

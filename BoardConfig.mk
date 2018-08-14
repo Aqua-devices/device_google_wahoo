@@ -160,4 +160,4 @@ TARGET_USES_MKE2FS := true
 
 BOARD_VNDK_VERSION := current
 
--include device/google/wahoo/BoardConfigCarbon.mk
+-include device/google/wahoo/BoardConfigAquarios.mk
