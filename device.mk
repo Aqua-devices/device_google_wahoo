@@ -674,3 +674,7 @@ ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
   PRODUCT_PROPERTY_OVERRIDES += \
       persist.vendor.usb.usbradio.config=diag
 endif
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 1440
