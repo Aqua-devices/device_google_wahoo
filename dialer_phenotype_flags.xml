@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+	<!-- Required flags for Google's call screening feature -->
+    <boolean name="G__speak_easy_enabled" value="true" />
+    <boolean name="G__speak_easy_bypass_locale_check" value="true" />
+    <boolean name="G__enable_speakeasy_details" value="true" />
+    <boolean name="__data_rollout__SpeakEasy.OverrideUSLocaleCheckRollout__launched__" value="true" />
+    <boolean name="__data_rollout__SpeakEasy.CallScreenOnPixelOneAndTwoRollout__launched__" value="true" />
+</map>

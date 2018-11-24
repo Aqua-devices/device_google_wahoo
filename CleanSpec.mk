@@ -115,6 +115,7 @@ $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/etc/media_codecs_google_audi
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/etc/media_codecs_google_telephony.xml)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/etc/media_codecs_google_video.xml)
 
+
 # Move /system/lib/vndk-sp to /system/lib/vndk-sp-26.1.0
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib/vndk-sp)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib64/vndk-sp)
@@ -192,3 +193,5 @@ $(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/etc/init/healthd.rc)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/vendor/bin/hw/android.hardware.keymaster@4.0-service)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/vendor/etc/init/android.hardware.keymaster@4.0-service.rc)
 
+# Add Call-Screener fixes for Google Dialer
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/data/data/com.google.android.dialer/shared_prefs/dialer_phenotype_flags.xml)
