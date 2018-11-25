@@ -43,7 +43,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=disable
 
 PRODUCT_PACKAGES += \
-    messaging
+    messaging \
+    CarrierConfig
 
 LOCAL_PATH := device/google/wahoo
 
