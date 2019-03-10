@@ -350,6 +350,9 @@
     <!-- Brand value for attestation of misprovisioned device. -->
     <string name="config_misprovisionedBrandValue" translatable="false">htc</string>
 
+    <!-- Does device support ActiveEdge? -->
+    <bool name="config_hasActiveEdge">true</bool>
+
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors 
     <bool name="config_multiColorBatteryLed">true</bool> -->
